@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-if number/number = number
+if number/2 = 0
   return true
 else
   return false
