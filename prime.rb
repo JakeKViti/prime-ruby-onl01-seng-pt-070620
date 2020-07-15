@@ -1,7 +1,5 @@
 # Add  code here!
-def prime?(array)
-primenumber = []
-array.each do |number|
+def prime?(number)
 if number/number = number
   return true
 else
