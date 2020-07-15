@@ -1,16 +1,7 @@
 # Add  code here!
 def prime?(number)
-
-if number < 2
-  return false
-elsif number = 2
-  return true
-end
-
-checker = 2
- while checker < number
-  return true if checker % number == 0
-  checker += 1
+ (2..(number - 1)).each do |num|
+   return false if number % num == 0
  end
-return false
-end
+ true
+ end
