@@ -3,12 +3,12 @@ def prime?(number)
 checker = 2
 if number < 2
   return false
-end 
+end
  while checker < number
   if checker / number == 0
     return false
   else
-    return true 
+    return true
   end
 checker += 1
 end
