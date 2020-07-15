@@ -5,11 +5,11 @@ if number < 2
   return false
 end 
  while checker < number
-  if num / number == 0
+  if checker / number == 0
     return false
   else
     return true 
-end
+  end
 checker += 1
 end
 end
