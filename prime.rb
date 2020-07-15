@@ -1,11 +1,15 @@
 # Add  code here!
 def prime?(number)
+checker = 2
 if number < 2
   return false
+end 
+ while checker < number
+  if num / number == 0
+    return false
+  else
+    return true 
 end
-if number/2 == 1
-  return false
-else
-  return true
+checker += 1
 end
 end
