@@ -7,6 +7,8 @@ end
  while checker < number
   if checker / number == 0
     return false
+  elsif number = 2
+    return true
   else
     return true
   end
