@@ -5,7 +5,7 @@ if number < 0
 end
 if number/2 == 0
   return false
-else
+elsif number/2 == 1
   return true
 end
 end
